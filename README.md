@@ -37,3 +37,7 @@ The token is stored in `chrome.storage.local` in this Chrome profile only.
 | `src/entrypoints/sidepanel/` | Setup UI |
 
 `npm test` runs the unit tests and `npm run typecheck` runs TypeScript.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
