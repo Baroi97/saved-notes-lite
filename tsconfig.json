@@ -1,0 +1,19 @@
+{
+  "extends": "./.wxt/tsconfig.json",
+  "compilerOptions": {
+    "strict": true,
+    "noUncheckedIndexedAccess": false,
+    "types": [
+      "chrome"
+    ],
+    "allowJs": true,
+    "checkJs": false,
+    "resolveJsonModule": true
+  },
+  "include": [
+    ".wxt/wxt.d.ts",
+    "src",
+    "tests",
+    "wxt.config.ts"
+  ]
+}
